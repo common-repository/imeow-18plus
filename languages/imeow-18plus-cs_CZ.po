@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imeow - 18+ only warnings\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-19 13:52+0000\n"
+"PO-Revision-Date: 2024-09-21 17:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: Čeština\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Loco-Version: 2.6.7; wp-6.5.2\n"
+"X-Domain: imeow-18plus\n"
+
+#: notice.php:42
+msgid ""
+"By clicking the enter button, you agree to the storage of Cookies, "
+"confirming your choice for the purpose of future verification."
+msgstr ""
+"Kliknutím na tlačítko vstoupit souhlasíte s uložením Cookies, potvrzující "
+"Vaši volbu za účelem budoucího ověření."
+
+#. Description of the plugin
+msgid "Displaying \"18+ only\" warnings on websites."
+msgstr "Zobrazení hlášky pouze pro starší 18 let na webových stránkách."
+
+#: notice.php:39
+msgid "Enter"
+msgstr "Vstoupit"
+
+#: notice.php:36
+msgid "Exit"
+msgstr "Odejít"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://imeow.cz"
+msgstr "https://imeow.cz"
+
+#: notice.php:5
+msgid "If you are younger, please click the exit button."
+msgstr "Pokud je Vám méně, klikněte prosím na tlačítko odejít."
+
+#. Name of the plugin
+msgid "Imeow - 18+ only warnings"
+msgstr "Imeow - varování vstup starším 18 let"
+
+#. Author of the plugin
+msgid "Lukáš Pauliny - Imeow"
+msgstr "Lukáš Pauliny - Imeow"
+
+#: notice.php:23 notice.php:29
+msgid "Please enter your real year of birth."
+msgstr "Nejdříve prosím zadejte reálný rok narození."
+
+#: notice.php:8
+msgid "Please enter your year of birth"
+msgstr "Zadejte prosím rok Vašeho narození"
+
+#: notice.php:26
+msgid "You must be at least 18 years old to enter the website."
+msgstr "Pro vstup na web Vám musí být minimálně 18 let."
+
+#: notice.php:5
+msgid "You must be over 18 years old to access this site."
+msgstr "Pro vstup na tyto stránky musíte být starší 18 let."

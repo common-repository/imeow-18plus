@@ -1,0 +1,117 @@
+/* Mail design */
+
+#imeow18_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 9999999;
+}
+
+.imeow18_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255,255,255);
+    padding: 32px;
+    border-radius: 16px;
+    width: 100%;
+    text-align: center;
+    max-width: 650px;
+    margin: 8px;
+    color: #191919;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+
+/* Small things */
+
+.imeow18_box small {
+    margin-top: 16px;
+    font-size: 0.6rem;
+}
+
+.imeow18_box .text-left {
+    text-align: left;
+}
+
+.imeow18_box .text-right {
+    text-align: right;
+}
+
+/* Rows and cells */
+
+.imeow18_row {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.imeow18_row .imeow18_content_center {
+    justify-content: center;
+}
+
+.imeow18_col-6 {
+    flex: 1;
+}
+
+/* Inputs buttons */
+
+.imeow18_age_input::-webkit-outer-spin-button, .imeow18_age_input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+    margin: 0;
+}
+
+.imeow18_age_input {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    border: 0px solid black;
+    box-shadow: 0 0 15px rgba(8, 21, 66, 0.20);
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    text-align: center;
+    font-size: 25px;
+    color:#191919;
+    transition: all 0.1s;
+}
+
+.imeow18_age_input:focus {
+    outline: 2px solid #dedede;
+}
+
+.imeow18_age_input.imeow18_ok_inp {
+    outline: 1px solid #27ae60;
+    transition: all 0.1s;
+}
+.imeow18_age_input.imeow18_err_inp {
+    outline: 1px solid #c0392b;
+    transition: all 0.1s;
+}
+
+.imeow18_btn {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.imeow18_btn-success {
+    background-color: #97cb33;
+}
+
+.imeow18_btn-success:hover {
+    color: #3a3a3a;
+}
